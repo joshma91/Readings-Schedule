@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Version 2.02 January 2016. Brought to you by your friendly neighbourhood geek\n\nShare your notes with Josh, he doesn't read very good\n\nPlease send me your feedback and report any issues. More fun stuff to come in the future!"/>
+
+</LinearLayout>

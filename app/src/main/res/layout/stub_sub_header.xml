@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/form_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/reading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="17sp"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:gravity="start"
+            android:drawablePadding="10dp"
+            android:duplicateParentState="true"
+            android:text="COMPLETED READINGS"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/plus_icon"
+            android:paddingBottom="3dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:src="@mipmap/plus_icon" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/reading_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:id="@+id/header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:color="@color/primary_dark_material_dark"
+        android:visibility="visible" />
+
+
+</LinearLayout>
