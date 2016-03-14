@@ -56,8 +56,7 @@ public class ByCourseFragment extends android.support.v4.app.Fragment implements
 
     private String mParam1;
     private String mParam2;
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+
 
     public static ByCourseFragment newInstance(ImportModel model) {
         Bundle args = new Bundle();
@@ -124,10 +123,6 @@ public class ByCourseFragment extends android.support.v4.app.Fragment implements
         mPage = getArguments().getInt(ARG_PAGE);
 
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
 
         if (getArguments().getParcelable("import") != null) {
             Parcelable model = getArguments().getParcelable("import");
