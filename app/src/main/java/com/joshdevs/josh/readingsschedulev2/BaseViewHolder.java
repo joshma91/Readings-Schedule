@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by joshma on 2015-06-10.
+ * Created by joshma on 2015-09-10.
  */
 public abstract class BaseViewHolder<T> extends RecyclerView.ViewHolder implements View.OnClickListener{
 
