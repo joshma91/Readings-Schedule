@@ -54,9 +54,6 @@ public class ByCourseFragment extends android.support.v4.app.Fragment implements
     TextView textView;
     ImportModel importModel;
 
-    private String mParam1;
-    private String mParam2;
-
 
     public static ByCourseFragment newInstance(ImportModel model) {
         Bundle args = new Bundle();
